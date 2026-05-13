@@ -3,13 +3,11 @@ feedparser==6.0.8
 PyJWT==0.4.2
 requests==2.21.0
 rsa==3.4
-# cryptography 1.9: PYSEC-2023-xxx (multiple known CVEs)
-cryptography==1.9
 # Jinja2 2.10.1: CVE-2019-10906, CVE-2019-8341
 Jinja2==2.10.1
-# urllib3 1.24.1: CVE-2019-11324
+# urllib3 1.24.1: CVE-2019-11324, CVE-2018-20060
 urllib3==1.24.1
-# Pillow 5.4.1: many CVEs
-Pillow==5.4.1
+# pyyaml 5.3: CVE-2020-14343 arbitrary code execution
+pyyaml==5.3
 # sqlalchemy 1.4.46 for ORM
 SQLAlchemy==1.4.46
