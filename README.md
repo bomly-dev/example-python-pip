@@ -11,7 +11,9 @@ Use it to try every Bomly feature — from basic SCA scans to vulnerability audi
 
 | File | Role |
 |------|------|
-| `requirements.txt` | Dependency manifest |
+| `requirements.txt` | Dependency manifest (direct + transitive, fully pinned) |
+| `requirements.lock` | Fully-resolved lock (pip-compile, with `# via` edges) for deterministic graphs |
+| `main.py` | Entry point importing `jwt` / `django` / `rsa` / `requests` so reachability has real call paths to trace |
 
 ## Try it with Bomly
 
