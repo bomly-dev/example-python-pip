@@ -14,19 +14,27 @@ feedparser==6.0.8
     # via -r requirements.txt
 idna==2.8
     # via requests
+jinja2==2.10.1
+    # via -r requirements.txt
+markupsafe==3.0.3
+    # via jinja2
 pyasn1==0.6.3
     # via rsa
 pyjwt==0.4.2
     # via -r requirements.txt
 pytz==2026.2
     # via django
+pyyaml==5.3
+    # via -r requirements.txt
 requests==2.21.0
     # via -r requirements.txt
 rsa==3.4
     # via -r requirements.txt
 sgmllib3k==1.0.0
     # via feedparser
-urllib3==1.24.3
+sqlalchemy==1.4.46
+    # via -r requirements.txt
+urllib3==1.24.1
     # via
     #   -r requirements.txt
     #   requests
